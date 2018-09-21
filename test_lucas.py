@@ -13,7 +13,9 @@ def test_xyz():
 def test_usandostring():
         assert soma('1', '2') == 3
         assert soma('xyz',1) == None
-
+        assert soma('-1', '4') == 3
+        
+        
 def test_menos():
         assert menos(2,2) == 0
 
